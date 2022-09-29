@@ -1,4 +1,5 @@
-//Generate a user report from active directory
+// Generate a user report from active directory
+// https://imamba.com zs1rcm
 
 
 $domain_controllers = Get-ADDomainController -filter * | Select-Object name
